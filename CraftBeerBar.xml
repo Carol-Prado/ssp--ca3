@@ -1,45 +1,45 @@
-<?xml version = "1.0" encoding = "UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <menu>
-    <section name= "IPA">
-        <entry>
-            <item>Fresh IPA 008</item>
-            <price>£7.00</price>
-        </entry>
-        <entry>
-            <item>OFS060//DIPA</item>
-            <price>£6.80</price>
-        </entry>
-        <entry>
-            <item>Heathen New England IPA</item>
-            <price>£3.95</price>
-        </entry>
-    </section>
-    <section name="Sour">
-        <entry>
-            <item>Daily Serving: Tropical Punch</item>
-            <price>£10.00</price>
-        </entry>
-        <entry>
-            <item>The Veil - Berry Berry Mango Tastee</item>
-            <price>£11.00</price>
-        </entry>
-        <entry pack="true">
-            <item>The Veil Sour Pack</item>
-            <price>£23.50</price>
-        </entry>
-    </section>
-    <section name="Stout">
-        <entry>
-            <item>The Veil - Larry</item>
-            <price>£30.00</price>
-        </entry>
-        <entry>
-            <item>Allagash - North Sky</item>
-            <price>£6.00</price>
-        </entry>
-        <entry pack="true">
-            <item>Curious Barrels Tasting Pack</item>
-            <price>£41.00</price>
-        </entry>
-    </section>
+  <section name="IPA">
+    <entry>
+      <item>Fresh IPA 008</item>
+      <price>£7.00</price>
+    </entry>
+    <entry>
+      <item>OFS060//DIPA</item>
+      <price>£6.80</price>
+    </entry>
+    <entry>
+      <item>Heathen New England IPA</item>
+      <price>£3.95</price>
+    </entry>
+  </section>
+  <section name="Sour">
+    <entry>
+      <item>Daily Serving: Tropical Punch</item>
+      <price>£10.00</price>
+    </entry>
+    <entry>
+      <item>The Veil - Berry Berry Mango Tastee</item>
+      <price>£11.00</price>
+    </entry>
+    <entry pack="true">
+      <item>The Veil Sour Pack</item>
+      <price>£23.50</price>
+    </entry>
+  </section>
+  <section name="Stout">
+    <entry>
+      <item>The Veil - Larry</item>
+      <price>£30.00</price>
+    </entry>
+    <entry>
+      <item>Allagash - North Sky</item>
+      <price>£6.00</price>
+    </entry>
+    <entry pack="true">
+      <item>Curious Barrels Tasting Pack</item>
+      <price>£41.00</price>
+    </entry>
+  </section>
 </menu>

@@ -60,14 +60,14 @@ router.post('/post/json', function (req, res) {
 
         console.log(obj)
 
-        XMLtoJSON('PaddysCafe.xml', function (err, result) {
+        XMLtoJSON('CraftBeerBar.xml', function (err, result) {
             if (err) throw (err);
             
             result.menu.section[obj.sec_n].entry.push({'item': obj.item, 'price': obj.price});
 
             console.log(JSON.stringify(result, null, "  "));
 
-            JSONtoXML('PaddysCafe.xml', result, function(err){
+            JSONtoXML('CraftBeerBar.xml', result, function(err){
                 if (err) console.log(err);
             });
         });
@@ -85,14 +85,14 @@ router.post('/post/delete', function (req, res) {
 
         console.log(obj)
 
-        XMLtoJSON('PaddysCafe.xml', function (err, result) {
+        XMLtoJSON('CraftBeerBar.xml', function (err, result) {
             if (err) throw (err);
             
             delete result.menu.section[obj.section].entry[obj.entree];
 
             console.log(JSON.stringify(result, null, "  "));
 
-            JSONtoXML('PaddysCafe.xml', result, function(err){
+            JSONtoXML('CraftBeerBar.xml', result, function(err){
                 if (err) console.log(err);
             });
         });
